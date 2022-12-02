@@ -1,6 +1,6 @@
   
 # Cultural Biases in Generative AI: Exploring Religious Bias in Stable Diffusion
-B. Bromová, G. Maggi, C. Mautner Markhof, R. Rapparini, L. Zurdo
+#### B. Bromová, G. Maggi, C. Mautner Markhof, R. Rapparini, L. Zurdo
 
 
 ## Table of Contents
@@ -23,10 +23,13 @@ B. Bromová, G. Maggi, C. Mautner Markhof, R. Rapparini, L. Zurdo
 <a name="introduction"></a>
 ## 1 Introduction
 
+### _1.1 Evolution of text-to-image generative models_
 <p align="justify"> 
 From artificial intelligence (AI) art to deep fakes, image-generative algorithms are emerging in discussions that span culture, philosophy and politics. Integral to these conversations are questions about bias and fairness. A frequent example – also taken up by this paper – is Stable Diffusion, launched in 2022 by Stability AI. Stable Diffusion follows the footsteps of Open AI’s DALL•E in providing an machine-learning (ML) system to generate images, yet it differs significantly in terms of approach. From its methodology to its underlying values, StableDiffusion could shape a different way of engaging with algorithmic bias. 
 <p align="justify">  
 This research work is a case study on Stable Diffusion’s biases when it comes to religion and culture, exploring whether the Stable Diffusion image generation system handles religion in an unbiased way. The paper focuses on religious bias as it has been less explored. Following an explanation of the Stable Diffusion model (Section 1), a literature review (Section 2), and a description of our methodology (Section 3), Section 4 explores the research question from an empirical perspective, analysing image outputs across a standardised set of prompts to detect religious biases. Thereafter, Section 5 discusses the findings, exploring how religious biases interact with Stability AI’s core values. All in all, we find evidence of religious bias in the shape of stereotyping, complex biases, and limited visual reasoning. We further posit that Stability AI frames the discussion in a way that allows it to both acknowledge open-source’s role in amplifying biases and simultaneously claim it as necessary for the solution. 
+
+### _1.2 Stable Diffusion Training Dataset_
 
   
 <a name="model"></a>
