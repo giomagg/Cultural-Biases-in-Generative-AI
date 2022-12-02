@@ -72,7 +72,7 @@ Moreover, Gonen & Goldberg (2019) shed light on how much these stereotypical rep
 
 #### 2.4 Research Design
 <p align="justify"> 
-Finally, bias can be embedded in the choices made already in research design itself. For instance in the case of NLP, most relevant research is conducted in English and focuses on the main Indo-European languages (Joshi et al. 2020). This creates a self-reinforcing trend: the less information is available, the fewer people will work on modelling a particular linguistic, cultural, or religious context; thus less data will be generated, less progress will be made, and fewer resources will be available for future pursuits (Hovy & Prabhumoye 2021). Kahneman called this type of bias ‘availability heuristics’: the more exposure to something one has, the more normal and plausible it seems. This dynamic is only amplified in the context of large machine learning models which usually require vast amounts of reliable data to increase output quality. It becomLeees particularly problematic when dealing with less-explored phenomena or underserved minorities: to illustrate in the context of religion, less populous systems of belief – usually smaller, more local religions such as Shintoism – are likely to be relatively understudied, attracting fewer resources, gathering less suitable data, and thus generating outputs of lower quality. Intersectionality also plays a role: it is likely that women, people of minority ethnicities or gender expressions will face an amplified version of the aforementioned cycle of neglect. 
+Finally, bias can be embedded in the choices made already in research design itself. For instance in the case of NLP, most relevant research is conducted in English and focuses on the main Indo-European languages (Joshi et al. 2020). This creates a self-reinforcing trend: the less information is available, the fewer people will work on modelling a particular linguistic, cultural, or religious context; thus less data will be generated, less progress will be made, and fewer resources will be available for future pursuits (Hovy & Prabhumoye 2021). Kahneman called this type of bias ‘availability heuristics’ (Gilovich et al. 2002): the more exposure to something one has, the more normal and plausible it seems. This dynamic is only amplified in the context of large machine learning models which usually require vast amounts of reliable data to increase output quality. It becomLeees particularly problematic when dealing with less-explored phenomena or underserved minorities: to illustrate in the context of religion, less populous systems of belief – usually smaller, more local religions such as Shintoism – are likely to be relatively understudied, attracting fewer resources, gathering less suitable data, and thus generating outputs of lower quality. Intersectionality also plays a role: it is likely that women, people of minority ethnicities or gender expressions will face an amplified version of the aforementioned cycle of neglect. 
 
 <p align="justify"> 
 Informed by these considerations, the next sections dives deeper into the analysis of a less explored bias in machine learning: religious bias.
@@ -191,9 +191,9 @@ Finally, this paper has situated the religious biases observed within Stability 
 
 <a name="bibliography"></a>
 ## Bibliography
-Anderson, M. (2022, October 3). Custom Styles in Stable Diffusion, Without Retraining or High Computing Resources. Metaphysic.ai. Retrieved from https://metaphysic.ai/custom-styles-in-stable-diffusion-without-retraining-or-high-computing-resources/ [Last accessed 01/12/2022]
+  Anderson, M. (2022, October 3). Custom Styles in Stable Diffusion, Without Retraining or High Computing Resources. Metaphysic.ai. Retrieved from https://metaphysic.ai/custom-styles-in-stable-diffusion-without-retraining-or-high-computing-resources/ [Last accessed 01/12/2022]
   
-Auerbach, C., & Silverstein, L. B. (2003). Qualitative data: An introduction to coding and analysis (Vol. 21). NYU press.
+  Auerbach, C., & Silverstein, L. B. (2003). Qualitative data: An introduction to coding and analysis (Vol. 21). NYU press.
 
   Baio, A. (2022, August 30). Exploring 12 Million of the 2.3 Billion Images Used to Train Stable Diffusion’s Image Generator. Waxy. Retrieved from https://waxy.org/2022/08/exploring-12-million-of-the-images-used-to-train-stable-diffusions-image-generator/ [Last accessed 01/12/2022]
 
@@ -224,6 +224,8 @@ Auerbach, C., & Silverstein, L. B. (2003). Qualitative data: An introduction to 
   Garg N., Schiebinger L., Jurafsky D., & Zouu J., (2018). Word embeddings  quantify 100 years of gender and ethnic stereotypes. 2018 Proceedings of the National Academy of Sciences, 115(16), 3635-3644. https://www.pnas.org/doi/full/10.1073/pnas.1720347115 
 
   Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Daumé III, H., Crawford, K. (2018). Datasheets for datasets. Communications of the ACM, 64(12), 86-92. http://dx.doi.org/10.1145/3458723 
+  
+  Gilovich, T., Griffin, D., Kahneman, D. (2002). Heuristics and Biases: The Psychology of Intuitive Judgment. Cambridge: Cambridge University Press.
 
   Gonen, H., & Goldberg, Y. (2019). Lipstick on a pig: Debiasing methods cover up systematic gender biases in word embeddings but do not remove them. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), 609–614. https://www.aclweb.org/anthology/N19-1061 
 
