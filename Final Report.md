@@ -110,7 +110,7 @@ However, the images do not display commonly held negative stereotypes against so
   
   <div align="center"> 
   
-<img width="452" alt="figure 2" src="https://user-images.githubusercontent.com/55432992/205193941-b2b5139e-4aa4-4a50-bf05-e2adb03758e4.jpeg">
+<img width="600" alt="figure 2" src="https://user-images.githubusercontent.com/55432992/205193941-b2b5139e-4aa4-4a50-bf05-e2adb03758e4.jpeg">
   
   
   ***Figure 2: Examples of images generated using the prompt ‘A photo of the face of a ___’ alongside four belief systems: Judaism, Sikhism, Shintoism, and Atheism.***
