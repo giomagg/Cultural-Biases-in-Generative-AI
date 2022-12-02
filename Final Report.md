@@ -179,6 +179,9 @@ The ideals of openness and community-building permeate Stability AI's approach t
 <p align="justify">   
 This approach to cultural bias – and to religious bias, as concerns this paper – raises the key question of whether there is meaningful opportunity to retrain Stable Diffusion. Stability AI’s vision of decentralised communities building their own culturally-attuned models arguably requires, beyond modifying the code and weights of a trained algorithm, retraining it. At first glance, this is an expensive endeavour: Stable Diffusion v1 reportedly cost 600.000€ to train (Mostaque, 2022). At the same time, Stability AI provides grants and computing power for selected projects (Biewald, 2022). Moreover, it appears that the community is organically attempting to circumvent these limits and create “retrainable-ish model[s]” (u/Yacben, 2022), with tools like Invoke AI (Foong, 2022) or fast-stable-diffusion (TheLastBen, 2022). These efforts would be possible in other generative models “if one only had the same kind of extraordinary access to them that Stability.ai has allowed by open-sourcing Stable Diffusion” (Anderson, 2022). While it remains unclear whether “retrainable-ish” is enough to achieve Stability AI’s purported solution to cultural biases, these efforts arguably help paint its open-sourced approach in a positive light.
   
+[^1]: Exnomination in writing takes place, for instance, in the expressions "athlete" vs. "female athlete". By not specifying male athletes as a specific category, they are constructed as the norm (Crawford, 2017).
+[^2]: However, several Stable Diffusion forks have circumvented the filter (Hachman, 2022). It must be also noted that, in addition to the original filter, Stable Diffusion v.2 has a Not Safe For Work (NSFW) filter that can be disabled by users.  
+
 <a name="conclusion"></a>
 ## Conclusion
 <p align="justify"> 
@@ -277,6 +280,4 @@ u/Yacben (2022, October 25). New (simple) Dreambooth method is out, train under 
   Vallor, S. (2018). An Introduction to Data Ethics. Markkula Center for Applied Ethics at Santa Clara University. Retrieved from https://www.scu.edu/media/ethics-center/technology-ethics/IntroToDataEthics.pdf [Last accessed 1/12/2022] 
 
   
-[^1]: Exnomination in writing takes place, for instance, in the expressions "athlete" vs. "female athlete". By not specifying male athletes as a specific category, they are constructed as the norm (Crawford, 2017).
-[^2]: However, several Stable Diffusion forks have circumvented the filter (Hachman, 2022). It must be also noted that, in addition to the original filter, Stable Diffusion v.2 has a Not Safe For Work (NSFW) filter that can be disabled by users.
 
