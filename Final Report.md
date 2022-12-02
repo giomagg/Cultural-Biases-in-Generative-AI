@@ -97,7 +97,7 @@ The images Stable Diffusion generated display a wide range of stereotypes and ar
 
 <div align="center"> 
   
-<img width="452" alt="figure 2" src="https://user-images.githubusercontent.com/115728895/205109681-659a9bc5-8577-43a4-9a1e-d150a29ec6de.png">
+<img width="452" alt="figure 2" src="[https://user-images.githubusercontent.com/115728895/205109681-659a9bc5-8577-43a4-9a1e-d150a29ec6de.png](https://github.com/giomagg/group_project_AI_bias/blob/main/Images/Figure%201.jpeg?raw=true)">
   
   
   ***Figure 1: Examples of images generated using the prompt ‘A photo of the face of a ___’ alongside four belief systems: Christianity, Buddhism, Hinduism, and Islam.***
