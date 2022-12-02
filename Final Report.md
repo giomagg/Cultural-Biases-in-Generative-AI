@@ -20,16 +20,22 @@
 
 [Bibliography](#bibliography)
 
+
+
 <a name="introduction"></a>
 ## 1 Introduction
 
-### _1.1 Evolution of text-to-image generative models_
+#### _1.1 Evolution of text-to-image generative models_
 <p align="justify"> 
 From artificial intelligence (AI) art to deep fakes, image-generative algorithms are emerging in discussions that span culture, philosophy and politics. Integral to these conversations are questions about bias and fairness. A frequent example – also taken up by this paper – is Stable Diffusion, launched in 2022 by Stability AI. Stable Diffusion follows the footsteps of Open AI’s DALL•E in providing an machine-learning (ML) system to generate images, yet it differs significantly in terms of approach. From its methodology to its underlying values, StableDiffusion could shape a different way of engaging with algorithmic bias. 
 <p align="justify">  
 This research work is a case study on Stable Diffusion’s biases when it comes to religion and culture, exploring whether the Stable Diffusion image generation system handles religion in an unbiased way. The paper focuses on religious bias as it has been less explored. Following an explanation of the Stable Diffusion model (Section 1), a literature review (Section 2), and a description of our methodology (Section 3), Section 4 explores the research question from an empirical perspective, analysing image outputs across a standardised set of prompts to detect religious biases. Thereafter, Section 5 discusses the findings, exploring how religious biases interact with Stability AI’s core values. All in all, we find evidence of religious bias in the shape of stereotyping, complex biases, and limited visual reasoning. We further posit that Stability AI frames the discussion in a way that allows it to both acknowledge open-source’s role in amplifying biases and simultaneously claim it as necessary for the solution. 
 
-### _1.2 Stable Diffusion Training Dataset_
+#### _1.2 Stable Diffusion Training Dataset_
+<p align="justify">  
+Stable Diffusion is trained on 512x512 images from a subset of the LAION-5B database. LAION-5B is an open large-scale multi-modal dataset composed of 5.85B Clip-filtered image-text pairs stored in 3 data packages. 2.3 billion image-text pairs contain English language and are stored in the LAION2B-EN package, whereas 2.2 billion samples are collected from over 100 languages and are contained in the LAION2b-multi package. Furthermore, 1 billion samples have texts that are not uniquely associable with a language (e.g. names) and are stored in the LAION1b-nolang (Beaumont, 2022).
+<p align="justify">  
+Each dataset is composed of the following variables: URL, that reports the image url, with millions of web domains covered; TEXT, which reports captions in the language of the dataset; WIDTH, which indicates the picture width; HEIGHT, which refers to the picture’s height; LANGUAGE, which refers to the language of the sample, is reported only for laion2B-multi and is computed using cld3, a neural network model for language identification; SIMILARITY, which is the cosine between the text and the image ViT-B/32 embeddings; WATERMARK, which is the probability of being a watermarked image; UNSAFE, or the probability of being an unsafe image (Beaumont, 2022). For these last two parameters, the model flags the image as watermarked when the probability value is larger than 0.8, while it deems it unsafe when the probability is predicted at 0.5. For the laion2B-en, laion2B-multi and laion1B-nolang, the proportion of unsafe images is equal to 2.9%, 3.3% and 3% respectively, while the proportion of watermarked images is 6.1%, 5.6% and 4%. 
 
   
 <a name="model"></a>
