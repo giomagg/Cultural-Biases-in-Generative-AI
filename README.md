@@ -1,6 +1,6 @@
   
 # Cultural Biases in Generative AI: Exploring Religious Bias in Stable Diffusion
-#### G. Maggi, C. Mautner Markhof, L. Zurdo, B. Bromová, R. Rapparini
+#### G. Maggi, C. Mautner Markhof, L. Zurdo, B. Bromová, R. Rapparini – Fall 2022
 
 
 ## Table of Contents
