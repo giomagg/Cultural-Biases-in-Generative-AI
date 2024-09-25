@@ -4,6 +4,7 @@
 
 
 <h2> Table of Contents</h2>
+
 [Introduction](#introduction)
 
 [1. The Stable Diffusion Model](#model)
